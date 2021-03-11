@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="funct_growth">健康成长</string>
+    <string name="funct_height">身高助手</string>
+    <string name="funct_nutrition">营养助手</string>
+    <string name="funct_prescribe">医嘱追踪</string>
+    <string name="funct_bulky">大动作部分测试</string>
+    <string name="funct_fine">精细动作部分测试</string>
+    <string name="funct_lang">语言部分测试</string>
+    <string name="funct_cogniti">认知部分测试</string>
+    <string name="funct_social">社会交往部分测试</string>
+
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="Que"/>
+    <version value="30"/>
+    <list>
+
+        <mapping class="com.example.kare.DB.Kiddata"/>
+        <mapping class="com.example.kare.DB.Height"/>
+        <mapping class="com.example.kare.DB.Weight"/>
+        <mapping class="com.example.kare.DB.KidQue1"/>
+        <mapping class="com.example.kare.DB.KidQue2"/>
+        <mapping class="com.example.kare.DB.KidQue3"/>
+        <mapping class="com.example.kare.DB.Scores"/>
+    </list>
+</litepal>

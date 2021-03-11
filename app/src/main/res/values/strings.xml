@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Kare</string>
+    <string name="title_funct">应用</string>
+    <string name="title_course">课程</string>
+    <string name="title_setting">设置</string>
+    <string name="title_account">我的</string>
+    <string name="Edit_wrongyear">年份输入错误，请重新输入</string>
+    <string name="Edit_wrongmonth">月份输入错误，请重新输入</string>
+    <string name="Edit_wrongday">日期输入错误，请重新输入</string>
+    <string name="Edit_wrongname">名字输入为空，请重新输入</string>
+    <string name="Bulky_minage">3</string>
+    <string name="Cognitive_minage">5</string>
+    <string name="begin_test">开始测试</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

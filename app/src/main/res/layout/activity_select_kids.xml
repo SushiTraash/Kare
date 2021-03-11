@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Funct.Kid.SelectKidsActivity"
+    android:layout_marginVertical="100dp"
+    android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true">
+        <RadioButton
+            android:button="@drawable/selectionselector"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/kid1button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/colorTestBlue"
+            android:id="@+id/kid1text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_margin="20sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true">
+        <RadioButton
+            android:button="@drawable/selectionselector"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/kid2button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/colorTestBlue"
+            android:id="@+id/kid2text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true">
+        <RadioButton
+            android:button="@drawable/selectionselector"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/kid3button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/colorTestBlue"
+            android:id="@+id/kid3text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+    <Button
+        android:layout_marginHorizontal="20sp"
+        android:id="@+id/SureKid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:clickable="true"
+        android:text="确定"
+        android:textSize="20dp"/>
+
+</LinearLayout>

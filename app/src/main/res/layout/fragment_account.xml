@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountFragment"
+    android:background="@color/colorlight">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorlight">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_account"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_centerInParent="true"
+                android:textSize="30dp"/>
+
+        </RelativeLayout>
+         <LinearLayout
+             android:layout_margin="10dp"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@color/colorWhite">
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:src="@drawable/personal_doc">
+
+                 </ImageView>
+                 <TextView
+                     android:layout_marginVertical="10dp"
+                     android:textColor="@color/colorBlack"
+                     android:textSize="20sp"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="个人资料">
+
+
+                 </TextView>
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:src="@drawable/like">
+                 </ImageView>
+                 <TextView
+                     android:layout_marginVertical="10dp"
+                     android:textColor="@color/colorBlack"
+                     android:textSize="20sp"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="收藏">
+
+
+                 </TextView>
+             </LinearLayout>
+
+
+         </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite">
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:padding="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+
+        <ImageView
+
+            android:layout_toLeftOf="@id/exit"
+            android:layout_margin="5dp"
+            android:src="@drawable/exit"
+            android:layout_width="30dp"
+            android:layout_height="30dp">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/exit"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="退出登录"
+            android:textSize="30sp">
+
+        </TextView>
+    </RelativeLayout>
+</RelativeLayout>

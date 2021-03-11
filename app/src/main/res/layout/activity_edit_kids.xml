@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_margin="@dimen/activity_vertical_margin"
+    tools:context=".Funct.Kid.EditKidsActivity"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/kids_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:hint="输入孩子姓名"/>
+    <EditText
+        android:digits="0123456789"
+        android:id="@+id/kids_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:hint="输入孩子出生年份"/>
+    <EditText
+        android:digits="0123456789"
+        android:id="@+id/kids_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:hint="输入孩子出生月"/>
+    <EditText
+        android:digits="0123456789"
+        android:id="@+id/kids_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:hint="输入孩子出生日"/>
+    <EditText
+        android:id="@+id/Boneage"
+        android:digits="0123456789"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入孩子骨龄: ? 月（可以不填）" />
+
+    <RadioGroup
+        android:id="@+id/sex_selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/sex_boy"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="男"
+            android:textSize="25sp"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/sex_girl"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="女"
+            android:textSize="25sp"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+    </RadioGroup>
+    <Button
+        android:id="@+id/Edit_Finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Finish"/>
+
+</LinearLayout>
+
